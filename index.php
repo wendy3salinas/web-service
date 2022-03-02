@@ -15,7 +15,7 @@ $(document).ready(function() {
    cat = $(this).attr("href");  //get category from URL
   
    var request = $.ajax({
-     url: "apizzz.php?cat=" + cat,
+     url: "api.php?cat=" + cat,
      method: "GET",
      dataType: "json"
    });
