@@ -18,6 +18,11 @@
     top:10px;
   }
 
+  .pic img{
+	max-width:50px;
+  }
+
+
 </style>
 <script src="https://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
 
@@ -98,10 +103,10 @@ function bondJSON(data){
 </script>
 </head>
 	<body>
-	<h1>Spotify Hot Hits USA</h1>
-		<a href="year" class="category">Bond Films By Year</a><br />
-		<a href="box" class="category">Bond Films By International Box Office Totals</a>
-		<h3 id="songtitle">Title Will Go Here</h3>
+	<h1>Spotify Web Service</h1>
+		<a href="year" class="category">Songs by Top Hit</a><br />
+		<a href="box" class="category">Songs by newset release date</a>
+		<h3 id="songtitle">Spotify Hits USA</h3>
 		<div id="songs">
 			<p>Songs will go here</p>
 		</div>
